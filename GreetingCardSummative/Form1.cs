@@ -269,6 +269,7 @@ namespace GreetingCardSummative
             orionGraphics.DrawString("Betelgeuse", starFont, starLabelBrush, 60, 244);
             orionGraphics.DrawString("Bellatrix",starFont, starLabelBrush, 220, 250);
             orionGraphics.DrawString("Meissa", starFont, starLabelBrush, 182, 170);
+
             orionGraphics.FillEllipse(starBrush, 91, 94, 5, 5);
             orionGraphics.FillEllipse(starBrush, 121, 94, 5, 5);
             orionGraphics.FillEllipse(starBrush, 80, 122, 3, 3);
@@ -286,6 +287,7 @@ namespace GreetingCardSummative
             orionGraphics.FillEllipse(starBrush, 140, 455, 6, 6);
             orionGraphics.FillEllipse(starBrush, 218, 320, 5, 5);
             orionGraphics.FillEllipse(starBrush, 255, 434, 4, 4);
+            
             //Constellation line things
             orionGraphics.DrawLine(starPen, 93, 94, 124, 94);
             orionGraphics.DrawLine(starPen, 91, 94, 80, 122);
@@ -306,6 +308,7 @@ namespace GreetingCardSummative
             orionGraphics.DrawLine(starPen, 313, 142, 284, 114);
             Thread.Sleep(500);
             orionGraphics.Clear(Color.Black);
+            
             //Redraw for text
             orionGraphics.DrawString("Betelgeuse", starFont, starLabelBrush, 60, 244);
             orionGraphics.DrawString("Bellatrix", starFont, starLabelBrush, 220, 250);
@@ -327,8 +330,9 @@ namespace GreetingCardSummative
             orionGraphics.FillEllipse(starBrush, 140, 455, 6, 6);
             orionGraphics.FillEllipse(starBrush, 218, 320, 5, 5);
             orionGraphics.FillEllipse(starBrush, 255, 434, 4, 4);
-            orionGraphics.DrawLine(starPen, 93, 94, 124, 94);
-            orionGraphics.DrawLine(starPen, 91, 94, 80, 122);
+
+            orionGraphics.DrawLine(starPen, 93, 95, 126, 95);
+            orionGraphics.DrawLine(starPen, 91, 95, 80, 123);
             orionGraphics.DrawLine(starPen, 124, 94, 80, 122);
             orionGraphics.DrawLine(starPen, 80, 122, 117, 244);
             orionGraphics.DrawLine(starPen, 117, 244, 182, 188);
@@ -344,6 +348,7 @@ namespace GreetingCardSummative
             orionGraphics.DrawLine(starPen, 322, 239, 313, 142);
             orionGraphics.DrawLine(starPen, 335, 288, 307, 305);
             orionGraphics.DrawLine(starPen, 313, 142, 284, 114);
+           
             //text
             orionGraphics.DrawString("Orion is a prominent constellation located on the ", infoFont, infoBrush, 30, 30);
             orionGraphics.DrawString("celestial equator and visible throughout the world. ", infoFont, infoBrush, 30, 44);
